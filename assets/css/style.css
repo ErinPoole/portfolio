@@ -1618,6 +1618,48 @@
 		
 		/*********************** @MEDIA *****************************/
 
+
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #main-nav select {
+        width:40%;
+    }
+    #header-section .hero-unit span:first-child {
+        font-size:40px;
+        line-height:75px;
+    }
+    #header-section .hero-unit h1 span {
+        font-size:26.5px;
+        margin: 0px 0px -30px;
+        padding: 10px 20px;
+        line-height:30px;
+    }
+    .logo img {
+        width:45%;
+        height:auto;
+    }
+    .browser-shot-2 {
+        left: 3%;
+    }
+    .browser-shot-3 {
+        right:3%;
+    }
+    .text-large {
+        font-size: 200%;
+        line-height: 35px;
+    }
+    .navbar .brand {
+    font-size: 15px;
+	}
+}
+
 			@media (max-width: 979px){
 				.navbar-fixed-top, .navbar-fixed-bottom {
 				position: fixed;
